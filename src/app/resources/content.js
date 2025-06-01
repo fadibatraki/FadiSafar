@@ -51,9 +51,9 @@ const social = [
 
 const home = {
   path: "/",
+  image: "",
   label: "Home",
   title: "Appledore Visuals",
-  image: "/images/avatar.jpg",
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Every photo has a soul  I just help it to speak.</>,
   featured: {
