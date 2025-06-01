@@ -15,19 +15,37 @@ const protectedRoutes = {
   "/work/automate-design-handovers-with-a-figma-to-code-pipeline": true,
 };
 
-import { Geist } from "next/font/google";
-import { Geist_Mono } from "next/font/google";
+// استيراد الخطوط محليًا
+import localFont from 'next/font/local';
 
-const primaryFont = Geist({
-  variable: "--font-primary",
-  subsets: ["latin"],
-  display: "swap",
+const primaryFont = localFont({
+  src: [
+    {
+      path: '../../fonts/Geist-Regular.woff2',
+      weight: '400',
+    },
+    {
+      path: '../../fonts/Geist-Bold.woff2',
+      weight: '700',
+    },
+  ],
+  variable: '--font-primary',
+  display: 'swap',
 });
 
-const monoFont = Geist_Mono({
-  variable: "--font-code",
-  subsets: ["latin"],
-  display: "swap",
+const monoFont = localFont({
+  src: [
+    {
+      path: '../../fonts/GeistMono-Regular.woff2',
+      weight: '400',
+    },
+    {
+      path: '../../fonts/GeistMono-Bold.woff2',
+      weight: '700',
+    },
+  ],
+  variable: '--font-code',
+  display: 'swap',
 });
 
 const font = {
@@ -38,16 +56,16 @@ const font = {
 };
 
 const style = {
-  theme: "dark", // theme is not necessary when using ThemeProvider (default)
-  neutral: "gray", // sand | gray | slate
-  brand: "cyan", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-  accent: "red", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-  solid: "contrast", // color | contrast
-  solidStyle: "flat", // flat | plastic
-  border: "playful", // rounded | playful | conservative
-  surface: "translucent", // filled | translucent
-  transition: "all", // all | micro | macro
-  scaling: "100" // 90 | 95 | 100 | 105 | 110
+  theme: "dark",
+  neutral: "gray",
+  brand: "cyan",
+  accent: "red",
+  solid: "contrast",
+  solidStyle: "flat",
+  border: "playful",
+  surface: "translucent",
+  transition: "all",
+  scaling: "100"
 };
 
 const effects = {
