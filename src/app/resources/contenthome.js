@@ -15,7 +15,7 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Follow {person.firstName}'s Instagram Page</>,
+  title: <>Follow {person.firstName}&apos;s Instagram Page</>,
   description: (
     <>
       I occasionally write about design, technology, and share thoughts on the intersection of

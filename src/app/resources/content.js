@@ -15,7 +15,7 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Follow {person.firstName}'s Instagram Page</>,
+  title: <>Follow {person.firstName}&apos;s Instagram Page</>,
   description: (
     <>
      Freelance photographer available for portraits, events, and branding. DM to book or collaborate!
@@ -63,7 +63,7 @@ const home = {
   },
   subline: (
     <>
-      I’m Fadi Safar, a professional photographer driven by a passion for capturing moments that tell a story.
+      I&apos;m Fadi Safar, a professional photographer driven by a passion for capturing moments that tell a story.
       <br />
     </>
   ),
@@ -90,8 +90,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-       I’m Fadi Safar, a professional photographer driven by a passion for capturing moments that tell a story.
-       Through my lens, I strive to document the beauty in every moment — whether it’s a spontaneous smile, a deep emotional connection, or a breathtaking natural view. With over 7 years of experience, I specialize in portraits, events, products, fashion.. Each project is an opportunity to create something timeless and unique, and I love working with individuals and brands to craft visuals that authentically represent who they are. If you are looking for a photographer who captures the essence of the moment with professionalism and passion — I’d be honored to be part of your story.
+       I&apos;m Fadi Safar, a professional photographer driven by a passion for capturing moments that tell a story.
+       Through my lens, I strive to document the beauty in every moment — whether it&apos;s a spontaneous smile, a deep emotional connection, or a breathtaking natural view. With over 7 years of experience, I specialize in portraits, events, products, fashion.. Each project is an opportunity to create something timeless and unique, and I love working with individuals and brands to craft visuals that authentically represent who they are. If you are looking for a photographer who captures the essence of the moment with professionalism and passion — I&apos;d be honored to be part of your story.
       </>
     ),
   },
